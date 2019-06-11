@@ -11,9 +11,9 @@ void opcontrol()
 
   screen::Field field(scr);
 
-  screen::Field setPos();
+  field.setPos( 0, 0 );
 
-  screen::Field setSideLength( 240 );
+  field.setSideLength( 200 );
 
   // two stacks use an array of colors
   // draw a purple stack with height 1 and an orange stack with height 3 in the far red zone
